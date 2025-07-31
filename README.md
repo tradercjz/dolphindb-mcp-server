@@ -16,7 +16,7 @@ uvx dolphindb-mcp-server
 ```
 > 📌 **注意**：`uvx` 安装方式需要通过 `uv.pack` 构建并上传到 Universe。如果你尚未上传，请参考 `uv` 文档进行打包与发布。
 
-### ✅ 方法二：从 PyPI 安装（如果已发布）
+### ✅ 方法二：从 PyPI 安装
 
 ```bash
 pip install dolphindb-mcp-server
