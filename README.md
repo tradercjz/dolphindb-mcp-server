@@ -4,7 +4,7 @@
 
 ### ✅ 方法一：使用 `uvx`（推荐）
 
-如果你已将此包发布到 [Universe.dev](https://universe.dev)，可以通过 `uvx` 安装并运行：
+通过 `uvx` 安装并运行：
 
 ```bash
 uvx install dolphindb-mcp-server
