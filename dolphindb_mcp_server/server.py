@@ -1,6 +1,6 @@
 from fastmcp import FastMCP
 from typing import Any
-from ddb import DatabaseSession
+from .ddb import DatabaseSession
 from dotenv import load_dotenv
 import os 
 
@@ -55,10 +55,8 @@ def query_dolphindb(script: str) -> Any:
     with DatabaseSession(**DDB_CONFIG) as db:
         return db.execute(script)
 
-# Run with SSE 
-mcp.run(
-    transport="sse", 
-    host="127.0.0.1",  # Override default host
-    port=8888,         # Override default port
-    log_level="debug"  # Set logging level
-)
+def main():
+    mcp.run()
+
+if __name__ == "__main__":
+    main()

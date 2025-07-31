@@ -1,0 +1,8 @@
+{
+  "name": "dolphindb-mcp-server",
+  "version": "0.1.0",
+  "description": "DolphinDB MCP Server",
+  "main": "dolphindb-mcp-server/server.py",
+  "runtime": "python3"
+}
+
