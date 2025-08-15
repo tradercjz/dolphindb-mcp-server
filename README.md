@@ -1,6 +1,7 @@
 
 
 ## 🧱 安装方式
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/tradercjz/dolphindb-mcp-server)](https://archestra.ai/mcp-catalog/tradercjz__dolphindb-mcp-server)
 
 ### ✅ 方法一：使用 `uvx`（推荐）
 
